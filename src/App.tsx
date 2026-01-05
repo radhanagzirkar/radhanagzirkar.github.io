@@ -1,15 +1,15 @@
-import { About } from './components/About'
-import { Contact } from './components/Contact'
-import { Footer } from './components/Footer'
-import { Header } from './components/Header'
-import { Hero } from './components/Hero'
-import { Projects } from './components/Projects'
+import { Header } from './Header';
+import { Hero } from './Hero';
+import { About } from './About';
+import { Projects } from './Projects';
+import { Contact } from './Contact';
+import { Footer } from './Footer';
 
 export default function App() {
   return (
-    <div className="bg-slate-950 text-slate-50">
+    <div className="min-h-screen bg-white">
       <Header />
-      <main className="space-y-0">
+      <main>
         <Hero />
         <About />
         <Projects />
@@ -17,5 +17,5 @@ export default function App() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }

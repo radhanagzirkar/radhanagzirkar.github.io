@@ -11,8 +11,6 @@ if (!rootElement) {
 
 ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
-    <div className="mesh-bg">
-      <App />
-    </div>
+    <App />
   </React.StrictMode>
 )
