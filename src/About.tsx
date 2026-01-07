@@ -23,16 +23,16 @@ export function About() {
     <section id="about" className="py-20 bg-gradient-to-b from-blue-50 via-pink-50 to-purple-50 relative overflow-hidden">
       {/* Floating Decorative Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-[15%] left-[8%] w-2 h-2 bg-purple-200 rounded-full opacity-40 animate-float"></div>
-        <div className="absolute top-[35%] right-[12%] w-2.5 h-2.5 bg-blue-200 rounded-full opacity-30 animate-float-delay-2"></div>
-        <div className="absolute bottom-[20%] left-[18%] w-2 h-2 bg-pink-200 rounded-full opacity-40 animate-float-delay-1"></div>
-        <div className="absolute top-[60%] right-[15%] text-purple-200 opacity-40 animate-float-delay-3">+</div>
-        <div className="absolute top-[25%] left-[25%] w-2 h-2 bg-blue-200 opacity-30 rotate-45 animate-float"></div>
-        <div className="absolute bottom-[35%] right-[20%] text-pink-200 opacity-40 animate-float-delay-2">✦</div>
+        <div className="absolute top-[15%] left-[8%] w-2 h-2 bg-purple-200 rounded-full opacity-70 animate-float"></div>
+        <div className="absolute top-[35%] right-[12%] w-2.5 h-2.5 bg-blue-200 rounded-full opacity-60 animate-float-delay-2"></div>
+        <div className="absolute bottom-[20%] left-[18%] w-2 h-2 bg-pink-200 rounded-full opacity-70 animate-float-delay-1"></div>
+        <div className="absolute top-[60%] right-[15%] text-purple-200 opacity-70 animate-float-delay-3">+</div>
+        <div className="absolute top-[25%] left-[25%] w-2 h-2 bg-blue-200 opacity-60 rotate-45 animate-float"></div>
+        <div className="absolute bottom-[35%] right-[20%] text-pink-200 opacity-70 animate-float-delay-2">✦</div>
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <h2 className="text-gray-900 text-center mb-12">
+        <h2 className="text-2xl text-gray-900 text-center mb-12">
           About Me
         </h2>
 
@@ -50,16 +50,6 @@ I’m always looking for opportunities to learn, build, and grow, both independe
               </p>
               <p>
               </p>
-            </div>
-
-            <div className="mt-8">
-              <a
-                href="/resume.pdf"
-                className="inline-block bg-blue-400 text-white px-6 py-3 rounded-lg hover:bg-blue-500 transition-all shadow-md hover:shadow-lg"
-                download
-              >
-                Download Resume
-              </a>
             </div>
           </div>
 

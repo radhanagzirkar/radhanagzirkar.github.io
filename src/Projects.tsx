@@ -4,28 +4,28 @@ import { ExternalLink, Github } from 'lucide-react';
 export function Projects() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with real-time inventory management, secure payment processing, and an intuitive admin dashboard.',
+      title: 'Project Coming Soon',
+      description: 'Exciting new project in development. Stay tuned for updates on this innovative solution.',
       image: 'https://images.unsplash.com/photo-1643116774075-acc00caa9a7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGV8ZW58MXx8fHwxNzY3MzM4ODM5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
+      tags: ['Coming Soon'],
       liveUrl: '#',
       githubUrl: '#',
       color: 'from-blue-300 to-purple-300'
     },
     {
-      title: 'Mobile Fitness App',
-      description: 'A cross-platform fitness tracking app with workout plans, progress analytics, and social features to keep users motivated.',
+      title: 'Project Coming Soon',
+      description: 'Exciting new project in development. Stay tuned for updates on this innovative solution.',
       image: 'https://images.unsplash.com/photo-1609921212029-bb5a28e60960?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ258ZW58MXx8fHwxNzY3MjQ3NTE2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['React Native', 'Firebase', 'Redux', 'Chart.js'],
+      tags: ['Coming Soon'],
       liveUrl: '#',
       githubUrl: '#',
       color: 'from-purple-300 to-pink-300'
     },
     {
-      title: 'Analytics Dashboard',
-      description: 'A comprehensive data visualization platform that transforms complex datasets into actionable insights with interactive charts and reports.',
+      title: 'Project Coming Soon',
+      description: 'Exciting new project in development. Stay tuned for updates on this innovative solution.',
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc2NzMyNjMwNHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['TypeScript', 'D3.js', 'Python', 'REST API'],
+      tags: ['Coming Soon'],
       liveUrl: '#',
       githubUrl: '#',
       color: 'from-pink-300 to-blue-300'
@@ -36,19 +36,19 @@ export function Projects() {
     <section id="projects" className="py-20 bg-gradient-to-b from-purple-50 via-blue-50 to-pink-50 relative overflow-hidden">
       {/* Floating Decorative Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-[10%] left-[10%] w-2.5 h-2.5 bg-blue-200 rounded-full opacity-40 animate-float"></div>
-        <div className="absolute top-[25%] right-[8%] w-2 h-2 bg-purple-200 rounded-full opacity-30 animate-float-delay-2"></div>
-        <div className="absolute top-[50%] left-[15%] w-2 h-2 bg-pink-200 rounded-full opacity-40 animate-float-delay-1"></div>
-        <div className="absolute bottom-[25%] right-[18%] w-3 h-3 bg-blue-200 rounded-full opacity-30 animate-float-delay-3"></div>
-        <div className="absolute top-[40%] right-[25%] text-purple-200 opacity-40 animate-float">+</div>
-        <div className="absolute bottom-[40%] left-[12%] text-pink-200 opacity-30 animate-float-delay-2">+</div>
-        <div className="absolute top-[65%] right-[10%] w-2 h-2 bg-purple-200 opacity-40 rotate-45 animate-float-delay-1"></div>
-        <div className="absolute bottom-[15%] left-[22%] text-blue-200 opacity-40 animate-float-delay-3">✦</div>
-        <div className="absolute top-[20%] left-[35%] w-2 h-2 bg-pink-200 opacity-30 rotate-45 animate-float"></div>
+        <div className="absolute top-[10%] left-[10%] w-2.5 h-2.5 bg-blue-200 rounded-full opacity-70 animate-float"></div>
+        <div className="absolute top-[25%] right-[8%] w-2 h-2 bg-purple-200 rounded-full opacity-60 animate-float-delay-2"></div>
+        <div className="absolute top-[50%] left-[15%] w-2 h-2 bg-pink-200 rounded-full opacity-70 animate-float-delay-1"></div>
+        <div className="absolute bottom-[25%] right-[18%] w-3 h-3 bg-blue-200 rounded-full opacity-60 animate-float-delay-3"></div>
+        <div className="absolute top-[40%] right-[25%] text-purple-200 opacity-70 animate-float">+</div>
+        <div className="absolute bottom-[40%] left-[12%] text-pink-200 opacity-60 animate-float-delay-2">+</div>
+        <div className="absolute top-[65%] right-[10%] w-2 h-2 bg-purple-200 opacity-70 rotate-45 animate-float-delay-1"></div>
+        <div className="absolute bottom-[15%] left-[22%] text-blue-200 opacity-70 animate-float-delay-3">✦</div>
+        <div className="absolute top-[20%] left-[35%] w-2 h-2 bg-pink-200 opacity-60 rotate-45 animate-float"></div>
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <h2 className="text-gray-900 text-center mb-4">
+        <h2 className="text-2xl text-gray-900 text-center mb-4">
           Featured Projects
         </h2>
         <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
