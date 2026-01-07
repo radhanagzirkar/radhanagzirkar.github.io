@@ -33,7 +33,7 @@ export function Footer() {
 
           {/* Copyright */}
           <p className="text-gray-300 text-center flex items-center gap-2">
-            © {new Date().getFullYear()} Your Name. Built with
+            © {new Date().getFullYear()} Radha Nagzirkar. Built with
             <Heart size={16} className="text-pink-400 fill-current" />
             and React
           </p>

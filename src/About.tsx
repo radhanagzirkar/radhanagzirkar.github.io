@@ -40,24 +40,15 @@ export function About() {
           {/* Content */}
           <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-12">
             <h3 className="text-gray-900 mb-4">
-              Hello! I'm a developer based in [Your Location]
+              Hey there!
             </h3>
             <div className="space-y-4 text-gray-600">
               <p>
-                I'm passionate about creating intuitive, dynamic user experiences. 
-                With a background in both design and development, I bring a unique 
-                perspective to every project I work on.
+I’m Radha, a Grade 11 IB student interested in science, technology, and problem solving. I enjoy learning how complex systems work and applying that curiosity through hands on projects, especially in computer science and engineering.              </p>
+              <p>
+I’m always looking for opportunities to learn, build, and grow, both independently and through collaboration. This website showcases my projects, experiences, and interests as I work toward a future in STEM.
               </p>
               <p>
-                My journey in web development started [X] years ago, and since then, 
-                I've had the opportunity to work on diverse projects ranging from 
-                small business websites to large-scale web applications.
-              </p>
-              <p>
-                When I'm not coding, you can find me exploring new technologies, 
-                contributing to open-source projects, or enjoying [your hobbies]. 
-                I'm always eager to take on new challenges and collaborate with 
-                creative minds.
               </p>
             </div>
 

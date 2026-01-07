@@ -5,8 +5,8 @@ export function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'your.email@example.com',
-      href: 'mailto:your.email@example.com',
+      value: 'radha.nagzirkar@gmail.com',
+      href: 'mailto:radha.nagzirkar@gmail.com',
       color: 'from-blue-300 to-purple-300'
     },
     {
@@ -19,7 +19,7 @@ export function Contact() {
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Your City, Country',
+      value: 'Toronto, ON, Canada',
       href: null,
       color: 'from-pink-300 to-blue-300'
     }

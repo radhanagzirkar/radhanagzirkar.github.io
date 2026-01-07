@@ -6,27 +6,27 @@ export function Hero() {
       {/* Floating Decorative Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Small circles */}
-        <div className="absolute top-[10%] left-[5%] w-2 h-2 bg-blue-200 rounded-full opacity-40 animate-float"></div>
-        <div className="absolute top-[20%] right-[15%] w-3 h-3 bg-purple-200 rounded-full opacity-30 animate-float-delay-1"></div>
-        <div className="absolute top-[60%] left-[20%] w-2 h-2 bg-blue-200 rounded-full opacity-40 animate-float-delay-2"></div>
-        <div className="absolute bottom-[25%] right-[10%] w-2.5 h-2.5 bg-purple-200 rounded-full opacity-30 animate-float"></div>
-        <div className="absolute top-[45%] right-[25%] w-2 h-2 bg-blue-200 rounded-full opacity-40 animate-float-delay-3"></div>
-        <div className="absolute bottom-[40%] left-[15%] w-3 h-3 bg-purple-200 rounded-full opacity-30 animate-float-delay-1"></div>
+        <div className="absolute top-[10%] left-[5%] w-2 h-2 bg-blue-200 rounded-full opacity-50 animate-float"></div>
+        <div className="absolute top-[20%] right-[15%] w-3 h-3 bg-purple-200 rounded-full opacity-50 animate-float-delay-1"></div>
+        <div className="absolute top-[60%] left-[20%] w-2 h-2 bg-blue-200 rounded-full opacity-60 animate-float-delay-2"></div>
+        <div className="absolute bottom-[25%] right-[10%] w-2.5 h-2.5 bg-purple-200 rounded-full opacity-50 animate-float"></div>
+        <div className="absolute top-[45%] right-[25%] w-2 h-2 bg-blue-200 rounded-full opacity-50 animate-float-delay-3"></div>
+        <div className="absolute bottom-[40%] left-[15%] w-3 h-3 bg-purple-200 rounded-full opacity-50 animate-float-delay-1"></div>
         
         {/* Plus signs */}
-        <div className="absolute top-[30%] left-[10%] text-blue-200 opacity-40 animate-float-delay-2">+</div>
-        <div className="absolute top-[70%] right-[20%] text-purple-200 opacity-30 animate-float">+</div>
-        <div className="absolute top-[15%] right-[8%] text-blue-200 opacity-40 animate-float-delay-3">+</div>
-        <div className="absolute bottom-[30%] left-[25%] text-purple-200 opacity-30 animate-float-delay-1">+</div>
+        <div className="absolute top-[30%] left-[10%] text-blue-200 opacity-60 animate-float-delay-2">+</div>
+        <div className="absolute top-[70%] right-[20%] text-purple-200 opacity-50 animate-float">+</div>
+        <div className="absolute top-[15%] right-[8%] text-blue-200 opacity-50 animate-float-delay-3">+</div>
+        <div className="absolute bottom-[30%] left-[25%] text-purple-200 opacity-50 animate-float-delay-1">+</div>
         
         {/* Small squares */}
-        <div className="absolute top-[25%] right-[30%] w-2 h-2 bg-blue-200 opacity-40 rotate-45 animate-float-delay-3"></div>
-        <div className="absolute top-[55%] left-[8%] w-2.5 h-2.5 bg-purple-200 opacity-30 rotate-45 animate-float"></div>
-        <div className="absolute bottom-[20%] right-[35%] w-2 h-2 bg-blue-200 opacity-40 rotate-45 animate-float-delay-2"></div>
+        <div className="absolute top-[25%] right-[30%] w-2 h-2 bg-blue-200 opacity-50 rotate-45 animate-float-delay-3"></div>
+        <div className="absolute top-[55%] left-[8%] w-2.5 h-2.5 bg-purple-200 opacity-50 rotate-45 animate-float"></div>
+        <div className="absolute bottom-[20%] right-[35%] w-2 h-2 bg-blue-200 opacity-50 rotate-45 animate-float-delay-2"></div>
         
         {/* Stars */}
-        <div className="absolute top-[40%] left-[30%] text-purple-200 opacity-40 animate-float-delay-1">✦</div>
-        <div className="absolute bottom-[35%] right-[12%] text-blue-200 opacity-30 animate-float-delay-3">✦</div>
+        <div className="absolute top-[40%] left-[30%] text-purple-200 opacity-50 animate-float-delay-1">✦</div>
+        <div className="absolute bottom-[35%] right-[12%] text-blue-200 opacity-50 animate-float-delay-3">✦</div>
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center bg-[rgba(230,0,0,0)] relative z-10">

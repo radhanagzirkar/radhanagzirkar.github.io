@@ -17,7 +17,7 @@ export function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <a href="#home" className="text-blue-500 hover:text-blue-400 transition-colors">
-            Your Name
+            Radha Nagzirkar
           </a>
 
           {/* Desktop Navigation */}
