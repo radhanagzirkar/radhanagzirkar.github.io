@@ -4,31 +4,31 @@ import { ExternalLink, Github } from 'lucide-react';
 export function Projects() {
   const projects = [
     {
-      title: 'Project Coming Soon',
-      description: 'Exciting new project in development. Stay tuned for updates on this innovative solution.',
-      image: 'https://images.unsplash.com/photo-1643116774075-acc00caa9a7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGV8ZW58MXx8fHwxNzY3MzM4ODM5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['Coming Soon'],
-      liveUrl: '#',
+      title: 'Study Optimizer',
+      description: 'A full-stack study scheduling application using adaptive algorithms and behavioral psychology to optimize weekly study plans with intelligent workload distribution.',
+      image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
+      tags: ['React', 'TypeScript', 'FastAPI', 'Python', 'Tailwind CSS'],
+      liveUrl: 'https://studium-belnwr556-radhas-projects-8bad1a5c.vercel.app/',
       githubUrl: '#',
-      color: 'from-blue-300 to-purple-300'
+      color: 'from-green-300 to-teal-300'
     },
     {
-      title: 'Project Coming Soon',
-      description: 'Exciting new project in development. Stay tuned for updates on this innovative solution.',
-      image: 'https://images.unsplash.com/photo-1609921212029-bb5a28e60960?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ258ZW58MXx8fHwxNzY3MjQ3NTE2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['Coming Soon'],
-      liveUrl: '#',
-      githubUrl: '#',
+      title: 'Portfolio Website',
+      description: 'A modern, responsive portfolio website showcasing my projects and skills. Built with cutting-edge web technologies and optimized for performance.',
+      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
+      tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+      liveUrl: 'https://radhanagzirkar.github.io',
+      githubUrl: 'https://github.com/radhanagzirkar/radhanagzirkar.github.io',
       color: 'from-purple-300 to-pink-300'
     },
     {
-      title: 'Project Coming Soon',
-      description: 'Exciting new project in development. Stay tuned for updates on this innovative solution.',
+      title: 'QuantSight',
+      description: 'Professional-grade quantitative research platform combining machine learning, statistical analysis, and modern web technologies for data-driven investment decisions.',
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc2NzMyNjMwNHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['Coming Soon'],
-      liveUrl: '#',
+      tags: ['React', 'Flask', 'Python', 'XGBoost', 'Supabase'],
+      liveUrl: 'https://www.quantsight.pro',
       githubUrl: '#',
-      color: 'from-pink-300 to-blue-300'
+      color: 'from-blue-300 to-indigo-300'
     }
   ];
 
@@ -111,7 +111,7 @@ export function Projects() {
 
         <div className="text-center mt-12">
           <a
-            href="https://github.com"
+            href="https://github.com/radhanagzirkar?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-gray-600 hover:text-blue-500 transition-colors"
